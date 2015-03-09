@@ -1,0 +1,333 @@
+
+#top {
+display: inline-block;
+    width: 62px;
+    height: 65px;
+    background-image: url(../img/top.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-size: 0;
+    position: relative;
+}
+#top:hover {
+
+    background-position: center -62px;
+    
+}
+hr {
+  height: 2px;
+    display: block;
+    float: left;
+    clear: both;
+    background-image: url(../img/hr.png);
+    background-repeat: repeat-x;
+    background-position: 0 bottom;
+    width: 99%;
+    margin: 3px 0.5%;
+    border: none;
+}
+#git {
+ background-image: url(../img/github.png);
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 100;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#git:before {
+content: "GitHub";
+margin: 15px 0 0 -50px;
+	display: inline-block;
+	font-family: monospace;
+	font-size: 1em;
+	color: lightslategrey;
+	
+}
+#page {
+	background-color: #f5f5f5;
+   font-family: Verdana, sans-serif;
+}
+
+.bg{
+background-color: #f5f5f5;
+ 
+}
+.c-bg{
+background-color: #ccc;
+
+}
+#header {
+	background-color: ##f5f5f5;
+	margin: 0;
+ }
+#header h1 {
+font-size: 3em;
+	color: #66666a;
+	line-height: 1.6;
+	}
+
+
+#header h1 img {
+display: inline-block;
+	vertical-align: text-bottom;
+	height: 50px;
+	
+}
+#header .grid-12:not(#nav), #nav li a[href*="java"], #footer-1 .container, #footer-1 img[alt*="logo"] {
+background-color: #dabca3;
+}
+#nav { background-color: #f2f2f2; padding: 0; margin: 0;}
+#nav ul { padding: 0; }
+#nav ul li {
+display: inline-block;
+	min-width: 90px;
+	text-transform: uppercase;
+	margin: -0px -4px -0px 0;
+	
+	}
+#nav ul li a {
+padding: 10px 15px;
+	display: block!important;
+	text-align: center;
+	font-size: 1.05em;
+		line-height: 3.4;
+	box-sizing: border-box;
+			}
+#nav li a[href*="java"]{
+	color: #f2f2f2;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+}
+#nav li a:not([href*="java"]):hover{
+	color: #21a55e;
+	}
+#header .grid-6 h2 {
+color: #fff;
+	font-weight: normal;
+	font-size: 2.6em;
+	margin-top: 40px;
+	line-height: 1;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#header .grid-6 h2 sub {
+display: block;
+	font-size: 80%;
+	line-height: 1.6;
+	border-top: 2px solid #ffe837;
+	margin: 10px 0;
+		
+}
+#header .grid-6 img{ 
+	width: 80%; 
+	display: inline-block;
+	margin: 10px 10px 10px 0;
+}
+#header .grid-6 small {
+font-size: 100%;
+	color: #f3f3f3;
+	display: block;
+}
+#header .grid-6 small:first-line {
+font-size: 1.25em;
+	color: #fff;
+}
+div.parallax {
+	position: absolute;
+	min-height: 100%;
+	height: inherit;
+	background-position: left center;
+	background-repeat:no-repeat;
+
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+	top: 0;
+	left: 0;
+	
+	
+}
+
+.parallax > .grid-4 {
+position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	font-family: Verdana, sans-serif;
+}
+.parallax > .grid-4 h1{
+	color: #fff;
+	margin-top: 25%;
+	font-size: 4em;
+}
+.parallax > .grid-4 h1 img{
+	max-width: 120px;
+	width: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.parallax > .grid-4 h3{
+	color: #d9d9d9;
+	margin-top: 0.5em;
+	font-size: 1.65em;
+	line-height: 1.4;
+}
+.parallax > .grid-4 h3 *{
+	color: #f8d43c;
+	display: block;
+	font-weight: normal;
+	font-size: 75%;
+}
+.parallax > .grid-4 + .grid-8 {
+   float: right;
+	min-height: 1000px;
+}
+.parallax .grid-8 div.frame {
+    width: 90%;
+	margin: 2.5em 5% 10px 5%;
+	float: left;
+	padding-bottom: 20px;
+	border-bottom: solid 3px #d9d6d6;
+}
+.parallax .grid-8 div.frame + div.frame h2, #infinite-scroll > .frame h2{
+
+	margin-top: 0em!important;
+	
+}
+.parallax .grid-8 h2, .parallax .grid-8 p, .parallax .grid-8 p + span {
+	display: block;
+	font-family: "微軟正黑體", sans-serif;
+	line-height: 1.6;
+	margin: 2.3em auto 10px auto;
+}
+.parallax .grid-8 h2 {
+color: #ea7947;
+	font-size: 2em;
+}
+.parallax .grid-8 h2 * {
+   display: block;
+	font-weight: normal;
+	font-size: 60%;
+	color: #8e8f95;
+}
+.parallax .grid-8 .frame:first-of-type h2 {
+margin-top: 3em;
+
+}
+
+.parallax .grid-8  h2 + p {
+	margin-top: 1.5em;
+font-size: 0.95em;
+	color: #485053;
+	text-align: justify;
+	letter-spacing: 0px;
+}
+.owl-item { overflow: hidden; }
+.owl-item img {
+width: 97%;
+	display: block;
+	margin: 10px 1.5%;
+}
+#footer-1 {
+background-color: #ba916f;
+}
+#footer-1 .container { margin-top: -2em; padding: 10px 0;}
+#footer-1 img[alt*="logo"] { width: 30%; max-width: 100px; display: block; margin: 0 auto -50px; padding: 8px; }
+#footer-1 .wrap { border-bottom: 1px solid #ba916f; width: 90%; display: block; margin: 0 5% 50px 5%; float: left;}
+#footer-1 p {color: #604b3e; position: relative; z-index: 100;}
+/*-------  media ------------*/
+@media screen and (min-width: 300px) and (max-width: 800px) {
+#page, #footer, #footer .grid-12, #header, .parallax .grid-8 { margin-bottom: 0; margin-top: 0;}
+p { font-size:  1.1em!important;}
+div.parallax {
+	position: relative;
+	min-height: 400px;
+	height: 100%;
+	background-image: url(../img/parallax-2.jpg);
+	background-position: center -50px;
+	background-repeat: repeat-y;
+	background-attachment: fixed!inportant;
+	-webkit-background-size: auto 500px;
+	background-size: auto 500px;
+	top: 0;
+	background-color: rgba(0,0,0,0.0);
+	
+}
+.parallax > .grid-4 {
+position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	margin-bottom: 0;
+}
+#footer{
+  min-height: 8em;
+	margin-top: -20px;
+	padding: 1em 0;
+	background-image: url(../img/parallax-2.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	position: relative;
+}
+.modal {
+	position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		z-index: 1;
+		background-color: rgba(0,0,0,0.35);
+	}
+	#footer p {color: #f5f5f5; position: relative; z-index: 100;}
+  #page, .paralax, #footer { margin-bottom: 0;}
+#page, .paralax { margin-bottom: 0;}
+	
+	#header .grid-4:first-of-type {
+	 border-bottom: 2px solid #ddd;
+		margin-bottom: 0;
+		background-position: right 30%;
+		background-repeat: no-repeat;
+		-webkit-background-size: 60%;
+		background-size: 60%;
+		position: relative;
+		}
+	#header h1 img { width: 40%; height:  auto; display: inline-block; margin-bottom: -20px;}
+	#header .project-1{
+		background-image: url(../img/header_p1.png);
+	}
+	#nav ul { text-align: center;}
+	#nav ul li {
+display: inline-block;
+	min-width: auto;
+	text-transform: uppercase;
+	margin: -2px -4px -16px 0;
+		width: 23.5%;
+	
+	}
+#nav ul li a {
+padding: 10px 8px;
+	display: block!important;
+	text-align: center;
+	font-size: 1.05em;
+		line-height: 3.5;
+	box-sizing: border-box;
+			}
+}
+
+@media screen and (min-width: 641px) and (max-width: 800px) {
+	#page, .paralax { margin-bottom: 0;}
+	
+	
+}
+@media screen and (min-width: 300px) and (max-width: 640px) {
+	
+}
+

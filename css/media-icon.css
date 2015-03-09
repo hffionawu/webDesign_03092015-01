@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+.icon-s, .icon-b{
+    width: 30px;
+    height: 30px;
+    font-size:0px;
+	color: rgba(0,0,0,0.0);
+	text-indent: -9999%;
+    display: inline-block;
+    margin: 0 3px 0 0 ;
+    vertical-align: middle;
+    background-image: url(icon-s.png);
+    outline: none;
+    border: none;
+    background-repeat: no-repeat;
+	    
+}
+.icon-b { width: 40px; height: 40px;
+
+    background-image: url(icon-l.png);
+   
+}
+/*----------- icon position 1---------------*/
+.icon-s.start { background-position: 0 0;}
+.icon-s.heart { background-position: 0 -30px;}
+.icon-s.gift { background-position: 0 -60px;}
+.icon-s.locate { background-position: 0 -90px;}
+.icon-s.map { background-position: 0 -120px;}
+.icon-s.bio { background-position: 0 -150px;}
+.icon-s.www { background-position: 0 -180px;}
+.icon-s.mail { background-position: 0 -210px;}
+.icon-s.bus { background-position: 0 -240px;}
+.icon-s.melon { background-position: 0 -270px;}
+
+/*----------- icon position 2---------------*/
+.icon-s.camera { background-position: -30px 0;}
+.icon-s.video { background-position: -30px -30px;}
+.icon-s.eye { background-position: -30px -60px;}
+.icon-s.clock { background-position: -30px -90px;}
+.icon-s.tag { background-position: -30px -120px;}
+.icon-s.sell { background-position: -30px -150px;}
+.icon-s.bag { background-position: -30px -180px;}
+.icon-s.group { background-position: -30px -210px;}
+.icon-s.fb { background-position: -30px -240px;}
+.icon-s.google { background-position: -30px -270px;}
+
+.icon-b.start { background-position: 0 0;}
+.icon-b.heart { background-position: 0 -40px;}
+.icon-b.gift { background-position: 0 -80px;}
+.icon-b.locate { background-position: 0 -120px;}
+.icon-b.map { background-position: 0 -160px;}
+.icon-b.bio { background-position: 0 -200px;}
+.icon-b.www { background-position: 0 -240px;}
+.icon-b.mail { background-position: 0 -280px;}
+.icon-b.bus { background-position: 0 -320px;}
+.icon-b.melon { background-position: 0 -360px;}
+
+/*----------- icon position 2---------------*/
+.icon-b.camera { background-position: -40px 0;}
+.icon-b.video { background-position: -40px -40px;}
+.icon-b.eye { background-position: -40px -80px;}
+.icon-b.clock { background-position: -40px -120px;}
+.icon-b.tag { background-position: -40px -160px;}
+.icon-b.sell { background-position: -40px -200px;}
+.icon-b.bag { background-position: -40px -240px;}
+.icon-b.group { background-position: -40px -280px;}
+.icon-b.fb { background-position: -40px -320px;}
+.icon-b.google { background-position: -40px -360px;}
+
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999%;
+    background-image: url(media-iconD.png);
+    background-repeat: no-repeat;
+    margin: 1px 2px;
+    vertical-align: middle;
+    font-size: 0px!important;
+    color: trasparent;
+   }
+.social-icon:hover {
+   
+    background-image: url(media-icon.png);
+  
+   }
+.social-icon.g-plus { background-position: -66px 0;}
+.social-icon.fb { background-position: -66px -40px;}
+.social-icon.twitter { background-position: -66px -80px;}
+
+.ui{
+	width: 50px;
+	height: 50px;
+	display: block;
+	font-size: 0px!important;
+	color: transparent;
+	background-image: url(icon-b.png);
+	background-repeat: no-repeat;
+	margin: auto 10px;
+	border-radius: 100px;
+	background-color: #ccc;
+   }
+
+.ui.swin { background-position: 0 0; background-color: #f19595;}
+.ui.makeup {background-position: 0 -50px;
+	background-color: #89B0DC;
+}
+.ui.bag {background-position: 0 -100px;
+	background-color: #339999;
+}
+.ui.cs { background-position: 0 -150px;  background-color: #fe8c60;}
+.ui.skirt { background-position: 0 -200px; background-color: #f19595;}
+.ui.set {background-position: 0 -250px;
+	background-color: #D6BE6B;
+}
+.ui.pl {
+	background-position: 0 -300px;
+	background-color: #A7ABDE;
+}
+
+
+.ui.swin:hover { background-position: right 0; background-color: #B9B8B7;}
+.ui.makeup:hover { background-position: right -50px; background-color: #B9B8B7;}
+.ui.bag:hover { background-position: right -100px; background-color: #B9B8B7;}
+.ui.cs:hover { background-position: right -150px; background-color: #B9B8B7;}
+.ui.skirt:hover { background-position: right -200px; background-color: #B9B8B7;}
+.ui.set:hover { background-position: right -250px; background-color: #B9B8B7;}
+.ui.pl:hover { background-position: right -3300px; background-color: #B9B8B7;}

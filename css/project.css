@@ -1,0 +1,48 @@
+@charset "utf-8";
+[id*="project"] {
+font-family: "微軟正黑體", Verdana, sans-serif;
+	padding-bottom: 3em;
+}
+[id*="project"] .row img:not([src*="gif"]),  [id*="project"] .grid-12 img:not([src*="gif"]){
+display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+[id*="project"] .row h3, [id*="project"] .grid-12 h3  {
+position: relative;
+font-size: 1.25em;
+	color: #868695;
+	line-height: 1;
+	margin-top: -10px;
+	background-color: #f5f5f5;
+	padding-top: 8px;
+}
+[id*="project"] .row [class*="cell"] + [class*="cell"] h3 {
+margin-top: -5px;
+}
+[id*="project"] .row h3 sub, [id*="project"] .grid-12 h3 sub{
+	display: block;
+	margin: 10px 0;
+	font-size: 75%;
+	color: #66666a;
+	font-weight: normal;
+	line-height: 1.4;
+	text-align: justify;
+	letter-spacing: 0px;
+	
+	}
+@media screen and (min-width: 300px) and (max-width: 800px) {
+	[id*="project"] .row h3, [id*="project"] .grid-12 h3  {
+
+font-size: 1.45em;
+box-sizing: border-box;
+		padding: 8px 10px 5px 10px;
+}
+	[id*="project"] .row h3 sub, [id*="project"] .grid-12 h3 sub{
+	
+	line-height: 1.6;
+	text-align: justify;
+	letter-spacing: 0px;
+	
+	}
+}

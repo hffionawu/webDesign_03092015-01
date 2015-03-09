@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+* .button {
+transition: all 0.3s;
+}
+.button {
+   font-size: 1.05em;
+	font-weight: normal;
+	font-family: sans-serif;
+    padding: 5px 12px;
+    color: #bbb;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.3);
+	border: 3px solid #ccc;
+    display: inline-block;
+    line-height: 1.6;
+    border-radius: 3px;
+    box-shadow: 1px 1px 0px rgba(255,255,255,0.2);
+    text-decoration: none;
+	cursor: pointer;
+     
+}
+.button:hover {
+	color: #fc6142;
+    border-color: #ed5233;
+}
