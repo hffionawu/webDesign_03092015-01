@@ -137,20 +137,18 @@ font-size: 100%;
 font-size: 1.25em;
 	color: #fff;
 }
-div.parallax {
-	position: absolute;
+div.parallax  {
+	position: relative;
 	min-height: 100%;
 	height: inherit;
-	background-position: left center;
-	background-repeat:no-repeat;
-
-	-webkit-background-size: auto 100%;
-	background-size: auto 100%;
-	top: 0;
-	left: 0;
-	
-	
-}
+  background-image: url(../img/parallax-1.jpg) ;
+	background-position: left top;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background-attachment: fixed;
+	transition: background all 1s infinite ;
+		
+	}
 
 .parallax > .grid-4 {
 position: fixed;
@@ -159,6 +157,10 @@ position: fixed;
 	left: 0;
 	height: 100%;
 	font-family: Verdana, sans-serif;
+	
+	
+	
+	
 }
 .parallax > .grid-4 h1{
 	color: #fff;
@@ -170,6 +172,7 @@ position: fixed;
 	width: 50%;
 	display: inline-block;
 	vertical-align: middle;
+		
 }
 .parallax > .grid-4 h3{
 	color: #d9d9d9;
@@ -241,30 +244,36 @@ background-color: #ba916f;
 #footer-1 .wrap { border-bottom: 1px solid #ba916f; width: 90%; display: block; margin: 0 5% 50px 5%; float: left;}
 #footer-1 p {color: #604b3e; position: relative; z-index: 100;}
 /*-------  media ------------*/
+
+
 @media screen and (min-width: 300px) and (max-width: 800px) {
-#page, #footer, #footer .grid-12, #header, .parallax .grid-8 { margin-bottom: 0; margin-top: 0;}
+#page, #footer, #footer .grid-12, #header, .parallax  .grid-8 { margin-bottom: 0; margin-top: 0;}
 p { font-size:  1.1em!important;}
-div.parallax {
+div.parallax  {
 	position: relative;
 	min-height: 400px;
 	height: 100%;
-	background-image: url(../img/parallax-2.jpg);
-	background-position: center -50px;
-	background-repeat: repeat-y;
-	background-attachment: fixed!inportant;
-	-webkit-background-size: auto 500px;
-	background-size: auto 500px;
 	top: 0;
-	background-color: rgba(0,0,0,0.0);
+	background: none!important;
 	
 }
 .parallax > .grid-4 {
-position: relative;
+  position: relative;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	height: 100%;
 	margin-bottom: 0;
+	background-image: url(../img/parallax-2.jpg);
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-attachment: local;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+	.parallax .grid-8 .frame:first-of-type h2 {
+margin-top: 0em;
+
 }
 #footer{
   min-height: 8em;
@@ -295,28 +304,29 @@ position: relative;
 		margin-bottom: 0;
 		background-position: right 30%;
 		background-repeat: no-repeat;
-		-webkit-background-size: 60%;
-		background-size: 60%;
+		-webkit-background-size: 70%;
+		background-size: 70%;
 		position: relative;
 		}
-	#header h1 img { width: 40%; height:  auto; display: inline-block; margin-bottom: -20px;}
+	#header h1 img { width: 45%; height:  auto; display: inline-block; margin-top: 10px;}
 	#header .project-1{
 		background-image: url(../img/header_p1.png);
 	}
+	#header .grid-6 h2 { font-size:  1.75em;}
 	#nav ul { text-align: center;}
 	#nav ul li {
 display: inline-block;
-	min-width: auto;
+	min-width: 50px;
 	text-transform: uppercase;
 	margin: -2px -4px -16px 0;
-		width: 23.5%;
+		width: 24%;
 	
 	}
 #nav ul li a {
-padding: 10px 8px;
+padding: 10px 0px;
 	display: block!important;
 	text-align: center;
-	font-size: 1.05em;
+	font-size: 1em;
 		line-height: 3.5;
 	box-sizing: border-box;
 			}
