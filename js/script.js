@@ -25,20 +25,5 @@ $(document).ready(function() {
 	  itemsTablet:	[768,2],
  
   });
-	if($("#infinite-scroll").length != 0){
-	 $("#infinite-scroll").load('assist/load1.html .frame');
-		$(window).on('scroll', function(){
-    if($(window).scrollTop() == $(document).height() - $(window).height())  {
-        $('div.page-nav').show();
-          
-            if($("#infinite-scroll * ").length != 0){
-                $("#infinite-scroll").delay(200).fadeIn(400);
-                $('div.page-nav').hide();
-            }else {
-                $('div.page-nav').html('No more posts to show.');
-            }
-        }
-      
-    });
-	}//if
+
 	})
